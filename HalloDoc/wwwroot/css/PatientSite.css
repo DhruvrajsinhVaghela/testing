@@ -1,0 +1,98 @@
+body {
+    overflow: hidden;
+}
+
+.main-container {
+    min-height: 100vh;
+    padding: 0;
+}
+
+.main-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 60vh;
+}
+
+.darkmode-div {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    border-radius: 5px;
+}
+
+#darkmode-btn {
+    border-radius: 5px;
+    border-color: #08BCEB;
+    background-color: white;
+    color: #08BCEB;
+}
+
+.darkmode-img {
+    color: #08BCEB;
+}
+
+
+#heading {
+    margin-bottom: 10%;
+}
+
+.login-btn {
+    height: 7vh;
+    width: 80%;
+}
+
+.btn-info {
+    color: white;
+}
+
+    .btn-info:hover {
+        border-color: black;
+        color: black;
+        background-color: #99ebff;
+    }
+
+.btn-primary:hover {
+    border-color: black;
+    color: black;
+    background-color: #9999ff;
+}
+
+.terms-div {
+    margin-top: auto;
+}
+
+#terms1 {
+    font-size: small;
+}
+
+#terms2 {
+    font-size: small;
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+.terms {
+    color: white;
+    margin-right: 2%;
+    font-size: small;
+    margin-bottom: -2%;
+}
+
+.logo-img-1 {
+    margin-top: auto;
+    width: 17vh;
+}
